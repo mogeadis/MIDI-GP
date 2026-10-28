@@ -50,7 +50,7 @@ constexpr uint8_t MIDI_CHANNEL = 1;
 constexpr uint8_t MIDI_CC_EXPRESSION = 12;
 ```
 
-Note that the footswitches support both *press* and *hold* gestures, each associated with its own configurable CC number. Moreover, the onboard footswitches (`BUTTON 1` & `BUTTON 2`) as well as the external dual footswitch (`BUTTON 3` & `BUTTON 4`) also support simultaneous gestures, with dedicated CC numbers assigned to each group.
+Note that the footswitches support both *press* and *hold* gestures, each associated with its own configurable CC number. Furthermore, the onboard footswitches (`BUTTON 1` & `BUTTON 2`) as well as the external dual footswitch (`BUTTON 3` & `BUTTON 4`) also support simultaneous gestures, with dedicated CC numbers assigned to each group.
 
 ### Calibration
 
