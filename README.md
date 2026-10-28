@@ -20,7 +20,7 @@
 ## Description
 
 ### Project
-**MIDI-GP** acts as a foot-operated hub for sending MIDI messages to compatible music gear, such as multi-effects processors. The device features two programmable onboard footswitches, with expansion options for single and dual external footswitches via TS and TRS inputs, as well as an expression pedal input. Additional MIDI connectivity is also provided via a MIDI IN port, allowing incoming Control Change (CC) and Program Change (PC) messages to be forwarded to the MIDI OUT port.
+**MIDI-GP** acts as a foot-operated interface for sending MIDI messages to compatible music gear, such as multi-effects processors. The device features two programmable onboard footswitches, with expansion options for single and dual external footswitches via TS and TRS inputs, as well as an expression pedal input. Additional MIDI connectivity is also provided via a MIDI IN port, allowing incoming Control Change (CC) and Program Change (PC) messages to be forwarded to the MIDI OUT port.
 
 ### Repository
 The code in this repository is organized into two directories, namely [*src*](src) and [*include*](include), which contain the source (`.cpp`) and header (`.h`) files of the project, respectively. Moreover, the [*img*](img) directory contains all images displayed in the present documentation.
@@ -50,7 +50,7 @@ constexpr uint8_t MIDI_CHANNEL = 1;
 constexpr uint8_t MIDI_CC_EXPRESSION = 12;
 ```
 
-Note that the footswitches support both *press* and *hold* gestures, each associated with its own configurable CC number. Moreover, the onboard footswitches (`BUTTON 1` & `BUTTON 2`) and the external dual footswitch (`BUTTON 3` & `BUTTON 4`) also support simultaneous gestures, with dedicated CC numbers assigned to each group.
+Note that the footswitches support both *press* and *hold* gestures, each associated with its own configurable CC number. Moreover, the onboard footswitches (`BUTTON 1` & `BUTTON 2`) as well as the external dual footswitch (`BUTTON 3` & `BUTTON 4`) also support simultaneous gestures, with dedicated CC numbers assigned to each group.
 
 ### Calibration
 
